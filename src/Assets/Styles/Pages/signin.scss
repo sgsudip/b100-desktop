@@ -1,0 +1,535 @@
+body {
+  // background-image: url("../../Images/background.jpg");
+  box-sizing: border-box;
+  background-size: cover;
+  // font-family: 'Montserrat' !important;
+  font-family: 'Muli'; 
+  // font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  word-break: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  -moz-white-space: pre-wrap;
+}
+
+
+// font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+body .background {
+  // background-color: #fdf4f3d1 !important;
+  // background-color: #fff6f6 !important;
+  background-image: none;
+}
+
+.MuiTouchRipple-root{
+  display: none;
+}
+
+.MuiButton-contained {
+    font-family: 'Muli'; 
+}
+
+
+.signinclass {
+  height: 100%;
+  display: flex !important;
+  font-family: 'Muli'; 
+
+  .MuiPaper-root.MuiPaper-elevation3 {
+    // box-shadow: 2px 2px 9px #0a0a0a14;
+    box-shadow: 0 0 0;
+    border-radius: 15px;
+  }
+
+  .MuiAvatar-root {
+    // background: #333;
+    // margin-top: -5rem;
+    // border: #f9d5d6 solid 4px;
+    margin-bottom: 3rem;
+    margin-top: 15px;
+    width: 75px;
+    height: 75px;
+    width: 96px;
+    height: 96px;
+    background: #ffffff;
+    box-shadow: 4px 4px 10px 4px rgba(129, 129, 129, 0.25), 0 0 0 25px #ffdbe2;
+    color: #f1667c;
+
+    svg {
+      height: 38px;
+      width: 38px;
+    }
+  }
+
+  button {
+    // background-color: #e33840 !important;
+    margin-bottom: 0;
+    // border-radius: 50px;
+    box-shadow: 0 0 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px 24px;
+    line-height: 24px;
+.MuiSvgIcon-root{
+  width: 18px;
+  height: 16px;
+}
+    .MuiButton-endIcon {
+      margin-top: -2px;
+      margin-left: 10px !important;
+    }
+  }
+
+  .MuiFormControl-root {
+    .MuiFormLabel-root {
+      &.Mui-focused {
+        color: #333;
+      }
+    }
+
+    .MuiInputBase-root {
+      &.Mui-focused {
+        .MuiOutlinedInput-notchedOutline {
+          border-color: #e33840;
+        }
+      }
+    }
+  }
+
+  .signinCard {
+    height: 100%;
+    justify-content: center;
+    width: 603px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+
+    @media (max-width: 1024px) {
+      padding: 30px;
+    }
+
+    @media (max-height: 567px) {
+      overflow: auto;
+      justify-content: flex-start;
+    }
+  }
+
+  &.signinclass-block {
+    max-width: unset;
+    background: #fff;
+    padding: 0;
+    margin-top: 76px;
+    height: calc(100% - 76px);
+
+    .back-btn {
+      font-size: 14px;
+      font-weight: 800;
+      padding: 7px 24px;
+      line-height: 24px;
+      color: #000;
+      background-color: unset;
+      text-transform: uppercase !important;
+      font-family: 'Muli'  !important;
+    box-shadow: none;
+    .MuiButton-startIcon{
+      margin-right: 10px;
+      margin-top: -1px;
+    }
+    .MuiSvgIcon-root{
+      width: 18px;
+      height: 16px;
+    }
+      // margin-bottom: 0;
+      // background: #d3d3d3;
+      // border-radius: 10px;
+      // box-shadow: 0 0 0;
+      // text-transform: capitalize;
+      // font-size: 14px;
+      // font-weight: 800;
+      // padding: 7px 24px;
+      // line-height: 24px;
+      // color: #000;
+      // position: absolute;
+      // // top: 109px;
+      // // left: 18px;
+    }
+
+    >.MuiGrid-container {
+      margin: 0;
+      flex-wrap: nowrap;
+    }
+
+    .cover-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .page-title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: 0.03em;
+      color: #000000;
+      margin-bottom: 20px;
+      font-family: 'Muli'; 
+
+      @media (max-height: 767px) {
+        font-size: 24px !important;
+        line-height: 30px;
+        margin-bottom: 4px;
+      }
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #c8c8c8;
+      border-radius: 8px;
+    }
+
+    .MuiFormHelperText-root {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.03em;
+      color: #acacac;
+          font-family: 'Muli'; 
+    }
+  }
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+
+    .MuiAvatar-root {
+      margin-bottom: 2rem;
+      width: 75px;
+      height: 75px;
+      box-shadow: 4px 4px 10px 4px rgba(129, 129, 129, 0.25), 0 0 0 15px #ffdbe2;
+
+      svg {
+        height: 33px;
+        width: 33px;
+      }
+    }
+  }
+
+  .overlay-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 94px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+        font-family: 'Muli'; 
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+    transform: translate(-10%, -15%);
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1023px) {
+  .signinclass-block {
+    >.MuiGrid-container {
+      .landscape-img {
+        display: block !important;
+      }
+    }
+  }
+}
+
+.MuiOutlinedInput-input {
+  padding: 15.5px 14px !important;
+}
+
+.signinclass.signinclass-block .page-title {
+  @media (max-width: 992px) {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .signinclass .signinCard {
+    width: 100%;
+  }
+}
+
+.content-height {
+  margin-top: 75px;
+  height: calc(100% - 75px);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .middle-content {
+    padding: 20px;
+    max-width: 440px;
+
+    @media (max-height: 567px) {
+      overflow: auto;
+      height: 100%;
+    }
+
+    &.rightcontentdiv {
+      height: auto;
+      width: 100%;
+      max-width: 603px;
+
+      .page-title {
+        font-size: 40px;
+            font-family: 'Muli'; 
+
+        &.page-title-md {
+          font-size: 25px;
+          line-height: 30px;
+          margin-bottom: 10px !important;
+
+          @media (max-width: 992px) {
+            font-size: 25px;
+          }
+        }
+      }
+
+      .sub-title-text {
+        font-size: 24px;
+        letter-spacing: 0px;
+        font-weight: 400;
+        margin-top: 2rem;
+      }
+
+      .control-btn {
+        margin-top: 0;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.get-checkbox svg path {
+  fill: #f1667c !important;
+}
+
+.get-started {
+  .page-title {
+    font-size: 30px !important;
+
+    @media (max-width: 992px) {
+      font-size: 25px !important;
+    }
+  }
+}
+
+.user-info {
+  .rightcontentdiv {
+    @media(max-height: 900px) {
+      height: calc(100% - 10px) !important ;
+      overflow-y: auto;
+    }
+  }
+}
+
+.user-info .MuiOutlinedInput-input,
+.age-info-input {
+  padding: 15.5px 14px !important;
+}
+
+.sub-title-text,
+.sub-title-text.MuiTypography-body1 {
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #959595;
+  margin: 20px 0;
+}
+
+.formlabel {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 8px !important;
+}
+
+.custom-control {
+  width: 360px;
+  max-width: 80%;
+  // margin-bottom: 25px !important;
+  min-width: unset;
+
+  &.email {
+    width: 591px !important;
+    max-width: 100% !important;
+    margin-bottom: 0px !important;
+  }
+
+  @media (max-width: 567px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.age-info-input {
+  padding: 18.5px 14px;
+  border: 1px solid #c8c8c8 !important;
+  border-radius: 8px;
+  font-size: 16px !important;
+  // color: rgba(0, 0, 0, 0.87);
+      font-family: 'Muli'; 
+
+  &::placeholder {
+    color: #a5a5a5 !important;
+    font-size: 16px;
+  }
+
+  &:focus {
+    border: 2px solid #e33840 !important;
+  }
+
+  &:hover {
+    border-color: rgba(0, 0, 0, 0.87) !important;
+  }
+
+  &:focus-visible {
+    border: 2px solid #e33840 !important;
+    outline: none !important;
+  }
+}
+
+.form-text {
+  font-weight: 300 !important;
+  font-size: 16px;
+  line-height: 19px;
+  color: #898989;
+  margin: 10px 0 !important;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  svg path {
+    fill: #424242;
+  }
+}
+
+.control-btn {
+  margin: 30px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-btn{
+  .back-btn{
+    .MuiSvgIcon-root{
+      width: 18px;
+      height: 16px;
+    }
+  }
+}
+
+button.rounded-button {
+  // color: #000 !important;
+  width: 60px;
+  height: 60px;
+  background: #f1667c !important;
+  padding: 0;
+  min-width: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  border-radius: 50%;
+
+  &.fullbutton {
+    width: auto;
+    border-radius: 50px;
+    height: auto;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 40px;
+    font-weight: 800;
+    font-size: 14px;
+    background-color: unset !important;
+    color: #000;
+    font-family: 'Muli'; 
+    text-transform: uppercase !important;
+
+    .MuiButton-endIcon {
+      svg {
+        color: #000;
+        max-width: 18px;
+        vertical-align: middle;
+        margin: 0 0 0 10px;
+      }
+    }
+  }
+
+  .signinCard .MuiOutlinedInput-input {
+    padding: 15.5px 14px;
+  }
+
+  .MuiButton-endIcon {
+    margin: 0 !important;
+    color: #fff;
+
+    svg {
+      width: 18px;
+      height: 16px;
+    }
+  }
+
+  &.footer-back-btn {
+    background: #e9e9e9 !important;
+
+    .MuiButton-endIcon {
+      color: #7c7c7c;
+    }
+  }
+}
+
+.gender-radio-group {
+  display: flex;
+  width: 95%;
+  margin: 30px 0 20px 0;
+
+  button {
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 10px;
+    flex: 1;
+    transition: all 0.25s ease 0s;
+    &.selected, &:hover {
+      border: 1px solid #ff4c6e;
+      // background: #fff2f5;
+      background: #fff;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px;
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 335px) {
+      font-size: 14px;
+    }
+    img{
+      @media (max-width: 335px) {
+        width: 10px;
+      }
+     
+    }
+  }
+}

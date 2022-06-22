@@ -1,0 +1,125 @@
+.text-bold {
+  color: black;
+}
+
+.text-grey {
+  color: darkgray;
+}
+
+.gender-selector {
+  cursor: pointer;
+}
+
+.back-button {
+  position: absolute !important;
+  top: 84px !important;
+  left: 10px !important;
+}
+
+body .background.top-spacing {
+  padding-top: 50px;
+}
+
+.MuiFab-root.avatar-img {
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 0;
+  img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  .edit-icon {
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    background: #aaaaaa;
+    box-shadow: 0 0 5px #ccc;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    color: #fff;
+  }
+}
+
+.box-title {
+  font-size: 24px !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+}
+
+.sub-box-title {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+.text-form-control {
+  .MuiInputBase-input {
+    border: 1px solid #dee2e6 !important;
+    padding: 10px 12px !important;
+    border-radius: 5px;
+  }
+  .MuiInput-underline:before,
+  .MuiInput-underline:after {
+    content: none !important;
+  }
+}
+
+.form-label {
+  font-size: 16px !important;
+  margin-bottom: 5px !important;
+}
+
+.info-text {
+  font-size: 20px !important;
+  margin: 10px 30px !important;
+  text-align: center !important;
+}
+
+.singup-btn.MuiButton-contained {
+  background-color: #8fa4c4;
+  background-color: #8fa4c4;
+  box-shadow: 0 0 0;
+  padding: 12px;
+  color: #fff !important;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  &:hover {
+    background-color: #ff4c6e;
+  }
+  &.next-btn.Mui-disabled {
+    background: #808080;
+    border-color: #808080;
+  }
+}
+
+.hover-false:hover {
+  background-color: white !important;
+  cursor: default;
+}
+
+.gender-col {
+  flex: 1;
+  padding: 0 30px;
+}
+
+@media (max-width: 767px) {
+  body .background.top-spacing {
+    padding-top: 30px;
+  }
+  .mobile-card {
+    padding: 0 !important;
+    box-shadow: 0 0 0 !important;
+  }
+  .box-title {
+    font-size: 20px !important;
+  }
+  .info-text {
+    font-size: 16px !important;
+    margin: 10px 00px !important;
+    text-align: center !important;
+  }
+}

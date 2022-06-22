@@ -1,0 +1,22 @@
+.text-center {
+  text-align: center !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.loader-div {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+@import "./Pages/dashboard.scss";
+@import "./Pages/signin.scss";
+@import "./Pages/profile.scss";
